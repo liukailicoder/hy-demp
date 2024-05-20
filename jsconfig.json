@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "paths": {
+      "@/*": ["./src/*"]
+    }
+  },
+  "jsx": "preserve",
+  "noUnusedLocals": false,
+  "noUnusedParameters": false, 
+  "exclude": ["node_modules", "dist"]
+}
