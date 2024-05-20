@@ -17,7 +17,7 @@
       <detail-landlord name="房东" :ref="getSectionRef" :landlord="mainPart.dynamicModule.landlordModule"/>
       <detail-comment name="评论" :ref="getSectionRef" :comment="mainPart.dynamicModule.commentModule"/>
       <detail-notice name="须知" :ref="getSectionRef" :order-rules="mainPart.dynamicModule.rulesModule.orderRules"/>
-      <detail-map name="周边" :ref="getSectionRef" :position="mainPart.dynamicModule.positionModule"/>
+      <detail-map name="信息" :ref="getSectionRef" :position="mainPart.dynamicModule.positionModule"/>
       <detail-intro :price-intro="mainPart.introductionModule"/>
     </div>
   </div>

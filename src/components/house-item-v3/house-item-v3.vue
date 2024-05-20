@@ -45,7 +45,7 @@ const props = defineProps({
   .item-inner {
     margin: 5px;
     background: #fff;
-    border-radius: 6px;
+    border-radius: 7px;
     overflow: hidden;
 
     .cover {
@@ -57,15 +57,15 @@ const props = defineProps({
     .info {
       padding: 8px 10px;
       color: #666;
-      font-size: 12px;
+      font-size: 14px;
     }
 
     .location {
       display: flex;
       align-items: center;
       img {
-        width: 12px;
-        height: 12px;
+        width: 13px;
+        height: 13px;
       }
 
       .text {

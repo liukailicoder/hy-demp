@@ -39,8 +39,8 @@ const endDateStr = computed(() => formatMonthDay(endDate.value, "MM.DD"))
   flex-direction: row;
   align-items: center;
 
-  height: 45px;
-  line-height:45px;
+  height: 44px;
+  line-height:44px;
 
   padding: 0 10px;
   font-size: 14px;
